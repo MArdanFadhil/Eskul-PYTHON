@@ -1,8 +1,8 @@
-nilai = 50
+nilai = int(input("nilai : "))
 
-print('Nilai anda adalah:', nilai, '\n')
+print('Uang anda :', nilai, '\n')
 
-if nilai >= 70:
-  print('Selamat, anda lulus!')
+if nilai >= 80:
+  print('Uang anda cukup beli Motor')
 else:
-  print('Maaf, anda tidak lulus.')
+  print('Maaf, uang anda tidak cukup')
